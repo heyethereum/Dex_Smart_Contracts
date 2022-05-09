@@ -7,12 +7,12 @@ async function main() {
 
   console.log("Account balance:", (await deployer.getBalance()).toString());
 
-  const RewardsLocker = await ethers.getContractFactory("OrchardRewardLocker");
+  const RewardsLocker = await ethers.getContractFactory("KyberRewardLocker");
   const rewardsLocker = await RewardsLocker.deploy(
-    "0x35C7C18B854684C2ea522B0e052be0aC1FBc42b5"
+    "0x7355cF2D978205Ea215576D34CdAA4F381FB6464"
   );
 
-  console.log("OrchardRewardLocker address:", rewardsLocker.address);
+  console.log("KyberRewardLocker address:", rewardsLocker.address);
 }
 
 main().then(() =>

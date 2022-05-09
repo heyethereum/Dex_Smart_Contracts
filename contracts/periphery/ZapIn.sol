@@ -73,7 +73,7 @@ contract ZapIn {
         tokenOut.safeTransfer(pool, amountOutput);
 
         lpQty = IDMMPool(pool).mint(to);
-        require(lpQty >= minLpQty, "DMMRouter: INSUFFICIENT_MINT_QTY");
+        require(lpQty >= minLpQty, "Orchard Router: INSUFFICIENT_MINT_QTY");
     }
 
     /// @dev swap and add liquidity to a pool with token-weth
@@ -135,7 +135,15 @@ contract ZapIn {
         bytes32 s
     ) external ensure(deadline) returns (uint256 amountOut) {
         uint256 value = approveMax ? uint256(-1) : liquidity;
-        IERC20Permit(pool).permit(msg.sender, address(this), value, deadline, v, r, s);
+        IERC20Permit(pool).permit(
+            msg.sender,
+            address(this),
+            value,
+            deadline,
+            v,
+            r,
+            s
+        );
         amountOut = _zapOut(tokenIn, tokenOut, liquidity, pool, minTokenOut);
         tokenOut.safeTransfer(to, amountOut);
     }
@@ -148,7 +156,13 @@ contract ZapIn {
         uint256 minTokenOut,
         uint256 deadline
     ) external ensure(deadline) returns (uint256 amountOut) {
-        amountOut = _zapOut(tokenIn, IERC20(weth), liquidity, pool, minTokenOut);
+        amountOut = _zapOut(
+            tokenIn,
+            IERC20(weth),
+            liquidity,
+            pool,
+            minTokenOut
+        );
         IWETH(weth).withdraw(amountOut);
         TransferHelper.safeTransferETH(to, amountOut);
     }
@@ -166,8 +180,22 @@ contract ZapIn {
         bytes32 s
     ) external returns (uint256 amountOut) {
         uint256 value = approveMax ? uint256(-1) : liquidity;
-        IERC20Permit(pool).permit(msg.sender, address(this), value, deadline, v, r, s);
-        amountOut = _zapOut(tokenIn, IERC20(weth), liquidity, pool, minTokenOut);
+        IERC20Permit(pool).permit(
+            msg.sender,
+            address(this),
+            value,
+            deadline,
+            v,
+            r,
+            s
+        );
+        amountOut = _zapOut(
+            tokenIn,
+            IERC20(weth),
+            liquidity,
+            pool,
+            minTokenOut
+        );
         IWETH(weth).withdraw(amountOut);
         TransferHelper.safeTransferETH(to, amountOut);
     }
@@ -179,7 +207,12 @@ contract ZapIn {
         uint256 userIn
     ) external view returns (uint256 tokenInAmount, uint256 tokenOutAmount) {
         uint256 amountSwap;
-        (amountSwap, tokenOutAmount) = calculateSwapAmounts(tokenIn, tokenOut, pool, userIn);
+        (amountSwap, tokenOutAmount) = calculateSwapAmounts(
+            tokenIn,
+            tokenOut,
+            pool,
+            userIn
+        );
         tokenInAmount = userIn.sub(amountSwap);
     }
 
@@ -190,12 +223,11 @@ contract ZapIn {
         uint256 lpQty
     ) external view returns (uint256) {
         require(factory.isPool(tokenIn, tokenOut, pool), "INVALID_POOL");
-        (uint256 amountIn, uint256 amountOut, ReserveData memory data) = _calculateBurnAmount(
-            pool,
-            tokenIn,
-            tokenOut,
-            lpQty
-        );
+        (
+            uint256 amountIn,
+            uint256 amountOut,
+            ReserveData memory data
+        ) = _calculateBurnAmount(pool, tokenIn, tokenOut, lpQty);
         amountOut += DMMLibrary.getAmountOut(
             amountIn,
             data.rIn,
@@ -214,10 +246,29 @@ contract ZapIn {
         uint256 userIn
     ) public view returns (uint256 amountSwap, uint256 amountOutput) {
         require(factory.isPool(tokenIn, tokenOut, pool), "INVALID_POOL");
-        (uint256 rIn, uint256 rOut, uint256 vIn, uint256 vOut, uint256 feeInPrecision) = DMMLibrary
-            .getTradeInfo(pool, tokenIn, tokenOut);
-        amountSwap = _calculateSwapInAmount(rIn, rOut, vIn, vOut, feeInPrecision, userIn);
-        amountOutput = DMMLibrary.getAmountOut(amountSwap, rIn, rOut, vIn, vOut, feeInPrecision);
+        (
+            uint256 rIn,
+            uint256 rOut,
+            uint256 vIn,
+            uint256 vOut,
+            uint256 feeInPrecision
+        ) = DMMLibrary.getTradeInfo(pool, tokenIn, tokenOut);
+        amountSwap = _calculateSwapInAmount(
+            rIn,
+            rOut,
+            vIn,
+            vOut,
+            feeInPrecision,
+            userIn
+        );
+        amountOutput = DMMLibrary.getAmountOut(
+            amountSwap,
+            rIn,
+            rOut,
+            vIn,
+            vOut,
+            feeInPrecision
+        );
     }
 
     function _swap(
@@ -245,9 +296,13 @@ contract ZapIn {
         {
             require(factory.isPool(tokenIn, tokenOut, pool), "INVALID_POOL");
             IERC20(pool).safeTransferFrom(msg.sender, pool, liquidity); // send liquidity to pool
-            (uint256 amount0, uint256 amount1) = IDMMPool(pool).burn(address(this));
+            (uint256 amount0, uint256 amount1) = IDMMPool(pool).burn(
+                address(this)
+            );
             (IERC20 token0, ) = DMMLibrary.sortTokens(tokenIn, tokenOut);
-            (amountIn, amountOut) = tokenIn == token0 ? (amount0, amount1) : (amount1, amount0);
+            (amountIn, amountOut) = tokenIn == token0
+                ? (amount0, amount1)
+                : (amount1, amount0);
         }
         uint256 swapAmount;
         {
@@ -258,7 +313,14 @@ contract ZapIn {
                 uint256 vOut,
                 uint256 feeInPrecision
             ) = DMMLibrary.getTradeInfo(pool, tokenIn, tokenOut);
-            swapAmount = DMMLibrary.getAmountOut(amountIn, rIn, rOut, vIn, vOut, feeInPrecision);
+            swapAmount = DMMLibrary.getAmountOut(
+                amountIn,
+                rIn,
+                rOut,
+                vIn,
+                vOut,
+                feeInPrecision
+            );
         }
         tokenIn.safeTransfer(pool, amountIn);
         _swap(swapAmount, tokenIn, tokenOut, pool, address(this));
@@ -281,11 +343,13 @@ contract ZapIn {
         )
     {
         ReserveData memory data;
-        (data.rIn, data.rOut, data.vIn, data.vOut, data.feeInPrecision) = DMMLibrary.getTradeInfo(
-            pool,
-            tokenIn,
-            tokenOut
-        );
+        (
+            data.rIn,
+            data.rOut,
+            data.vIn,
+            data.vOut,
+            data.feeInPrecision
+        ) = DMMLibrary.getTradeInfo(pool, tokenIn, tokenOut);
         uint256 totalSupply = _calculateSyncTotalSupply(IDMMPool(pool), data);
         bool isAmpPool = (IDMMPool(pool).ampBps() != 10000);
         // calculate amountOut
@@ -300,7 +364,10 @@ contract ZapIn {
                 newData.rOut.mul(totalSupply) / data.rOut
             );
             newData.vIn = Math.max(data.vIn.mul(b) / totalSupply, newData.rIn);
-            newData.vOut = Math.max(data.vOut.mul(b) / totalSupply, newData.rOut);
+            newData.vOut = Math.max(
+                data.vOut.mul(b) / totalSupply,
+                newData.rOut
+            );
         } else {
             newData.vIn = newData.rIn;
             newData.vOut = newData.rOut;
@@ -315,7 +382,8 @@ contract ZapIn {
     {
         totalSupply = IERC20(address(pool)).totalSupply();
 
-        (address feeTo, uint16 governmentFeeBps) = factory.getFeeConfiguration();
+        (address feeTo, uint16 governmentFeeBps) = factory
+            .getFeeConfiguration();
         if (feeTo == address(0)) return totalSupply;
 
         uint256 _kLast = pool.kLast();
@@ -324,7 +392,9 @@ contract ZapIn {
         uint256 rootKLast = MathExt.sqrt(_kLast);
         uint256 rootK = MathExt.sqrt(data.vIn * data.vOut);
 
-        uint256 numerator = totalSupply.mul(rootK.sub(rootKLast)).mul(governmentFeeBps);
+        uint256 numerator = totalSupply.mul(rootK.sub(rootKLast)).mul(
+            governmentFeeBps
+        );
         uint256 denominator = rootK.add(rootKLast).mul(5000);
         uint256 liquidity = numerator / denominator;
 
@@ -350,7 +420,9 @@ contract ZapIn {
         }
         uint256 inverseC = vIn.mul(userIn);
         // numerator = sqrt(b^2 -4ac) - b
-        uint256 numerator = MathExt.sqrt(b.mul(b).add(inverseC.mul(4 * r) / PRECISION)).sub(b);
+        uint256 numerator = MathExt
+            .sqrt(b.mul(b).add(inverseC.mul(4 * r) / PRECISION))
+            .sub(b);
         return numerator.mul(PRECISION) / (2 * r);
     }
 }

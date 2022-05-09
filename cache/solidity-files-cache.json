@@ -1,41 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\nus-money\\node_modules\\@openzeppelin\\contracts\\utils\\EnumerableSet.sol": {
-      "lastModificationDate": 1650389618714,
-      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
-      "sourceName": "@openzeppelin/contracts/utils/EnumerableSet.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "EnumerableSet"
-      ]
-    },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\nus-money\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
       "lastModificationDate": 1650389619475,
       "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
@@ -69,150 +34,6 @@
       ],
       "artifacts": [
         "IERC20"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\nus-money\\node_modules\\@openzeppelin\\contracts\\math\\SafeMath.sol": {
-      "lastModificationDate": 1650389619800,
-      "contentHash": "e03e12206057e809eb76c5f681170c32",
-      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "SafeMath"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\nus-money\\node_modules\\@openzeppelin\\contracts\\math\\Math.sol": {
-      "lastModificationDate": 1650389619594,
-      "contentHash": "e5c844515b04deabacef7eb872abc384",
-      "sourceName": "@openzeppelin/contracts/math/Math.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "Math"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\nus-money\\node_modules\\@openzeppelin\\contracts\\utils\\ReentrancyGuard.sol": {
-      "lastModificationDate": 1650389619751,
-      "contentHash": "1c60f58cee45c61469e1aea31e4dd879",
-      "sourceName": "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "ReentrancyGuard"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\nus-money\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\SafeERC20.sol": {
-      "lastModificationDate": 1650389619793,
-      "contentHash": "33e22842646d746e5c4124c2fdc051aa",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC20.sol",
-        "../../math/SafeMath.sol",
-        "../../utils/Address.sol"
-      ],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "SafeERC20"
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\nus-money\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
@@ -512,7 +333,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -586,7 +407,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -623,7 +444,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -850,7 +671,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -887,7 +708,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -924,7 +745,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -962,7 +783,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -997,7 +818,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1035,7 +856,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1072,7 +893,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1183,7 +1004,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1255,7 +1076,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1292,7 +1113,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1321,15 +1142,15 @@
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\periphery\\ZapIn.sol": {
-      "lastModificationDate": 1650383766412,
-      "contentHash": "2ee9ae5eac5fd8bd25f9dd5cb14593af",
+      "lastModificationDate": 1652074812206,
+      "contentHash": "d4b95a3e240f3706e34993d45fe3dd02",
       "sourceName": "contracts/periphery/ZapIn.sol",
       "solcConfig": {
         "version": "0.6.12",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1411,7 +1232,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1448,7 +1269,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1485,7 +1306,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1524,7 +1345,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1564,7 +1385,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1601,7 +1422,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1638,7 +1459,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1683,7 +1504,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1874,7 +1695,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1916,7 +1737,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1952,7 +1773,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -1989,7 +1810,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2032,7 +1853,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2071,7 +1892,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2108,7 +1929,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2145,7 +1966,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2182,7 +2003,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2219,7 +2040,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2256,7 +2077,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2293,7 +2114,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2328,7 +2149,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2701,7 +2522,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2739,7 +2560,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2774,7 +2595,7 @@
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 999999
+            "runs": 200
           },
           "outputSelection": {
             "*": {
@@ -2944,10 +2765,10 @@
         "PermissionAdmin"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\OrchardRewardLocker.sol": {
-      "lastModificationDate": 1651854969756,
-      "contentHash": "3273ba10cbc149cb02a096d4e8ba2adc",
-      "sourceName": "contracts/liquidityMining/OrchardRewardLocker.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\KyberRewardLockerV2.sol": {
+      "lastModificationDate": 1651937924109,
+      "contentHash": "7ac22dd91310f0199241087c14eb4045",
+      "sourceName": "contracts/liquidityMining/KyberRewardLockerV2.sol",
       "solcConfig": {
         "version": "0.7.6",
         "settings": {
@@ -2978,19 +2799,19 @@
         "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
         "@openzeppelin/contracts/utils/EnumerableSet.sol",
         "../manual/PermissionAdmin.sol",
-        "../interfaces/liquidityMining/IOrchardRewardLocker.sol"
+        "../interfaces/liquidityMining/IKyberRewardLockerV2.sol"
       ],
       "versionPragmas": [
         "0.7.6"
       ],
       "artifacts": [
-        "OrchardRewardLocker"
+        "KyberRewardLockerV2"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\liquidityMining\\IOrchardRewardLocker.sol": {
-      "lastModificationDate": 1651855011762,
-      "contentHash": "efd87953efb081b0b19dd467abb4a14c",
-      "sourceName": "contracts/interfaces/liquidityMining/IOrchardRewardLocker.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\liquidityMining\\IKyberRewardLockerV2.sol": {
+      "lastModificationDate": 1651937877244,
+      "contentHash": "0e4b2f9b4124c82ed533f4d2ae710898",
+      "sourceName": "contracts/interfaces/liquidityMining/IKyberRewardLockerV2.sol",
       "solcConfig": {
         "version": "0.7.6",
         "settings": {
@@ -3021,13 +2842,244 @@
         "0.7.6"
       ],
       "artifacts": [
-        "IOrchardRewardLocker"
+        "IKyberRewardLockerV2"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\OrchardFairLaunch.sol": {
-      "lastModificationDate": 1651856779911,
-      "contentHash": "b6d8bd3654a8166c4df0aec699e3ba35",
-      "sourceName": "contracts/liquidityMining/OrchardFairLaunch.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\GeneratedToken.sol": {
+      "lastModificationDate": 1651938313220,
+      "contentHash": "e8500d8764751b131af1fd049a2aa1a2",
+      "sourceName": "contracts/liquidityMining/GeneratedToken.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "GeneratedToken"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\KyberFairLaunchV2.sol": {
+      "lastModificationDate": 1651938264158,
+      "contentHash": "ef9d39782489820134b87bd0ad239e31",
+      "sourceName": "contracts/liquidityMining/KyberFairLaunchV2.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "../manual/IERC20Ext.sol",
+        "../manual/PermissionAdmin.sol",
+        "../interfaces/liquidityMining/IKyberFairLaunchV2.sol",
+        "../interfaces/liquidityMining/IKyberRewardLockerV2.sol",
+        "./GeneratedToken.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "KyberFairLaunchV2"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\liquidityMining\\IKyberFairLaunchV2.sol": {
+      "lastModificationDate": 1651938395750,
+      "contentHash": "b00abd38a571ef1504f19e36aa12accc",
+      "sourceName": "contracts/interfaces/liquidityMining/IKyberFairLaunchV2.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IKyberFairLaunchV2"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\Multicall.sol": {
+      "lastModificationDate": 1652000440879,
+      "contentHash": "1abacf738fa49fed08548fc3a5a606cc",
+      "sourceName": "contracts/Multicall.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "Multicall"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\KyberRewardLocker.sol": {
+      "lastModificationDate": 1652104835040,
+      "contentHash": "77d2b30c288b27e53997f464bf44af9a",
+      "sourceName": "contracts/liquidityMining/KyberRewardLocker.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../manual/IERC20Ext.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/utils/SafeCast.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "@openzeppelin/contracts/utils/EnumerableSet.sol",
+        "../manual/PermissionAdmin.sol",
+        "../interfaces/liquidityMining/IKyberRewardLocker.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "KyberRewardLocker"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\liquidityMining\\IKyberRewardLocker.sol": {
+      "lastModificationDate": 1652104875100,
+      "contentHash": "de37cb7b7dbd1310078d639bb1e63b0c",
+      "sourceName": "contracts/interfaces/liquidityMining/IKyberRewardLocker.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../manual/IERC20Ext.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IKyberRewardLocker"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\KyberFairLaunch.sol": {
+      "lastModificationDate": 1652106120233,
+      "contentHash": "b188400b6830dbfadc6ed0e4a499dc94",
+      "sourceName": "contracts/liquidityMining/KyberFairLaunch.sol",
       "solcConfig": {
         "version": "0.7.6",
         "settings": {
@@ -3058,20 +3110,20 @@
         "@openzeppelin/contracts/utils/SafeCast.sol",
         "../manual/IERC20Ext.sol",
         "../manual/PermissionAdmin.sol",
-        "../interfaces/liquidityMining/IOrchardFairLaunch.sol",
-        "../interfaces/liquidityMining/IOrchardRewardLocker.sol"
+        "../interfaces/liquidityMining/IKyberFairLaunch.sol",
+        "../interfaces/liquidityMining/IKyberRewardLocker.sol"
       ],
       "versionPragmas": [
         "0.7.6"
       ],
       "artifacts": [
-        "OrchardFairLaunch"
+        "KyberFairLaunch"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\liquidityMining\\IOrchardFairLaunch.sol": {
-      "lastModificationDate": 1651856507336,
-      "contentHash": "86de8b7d458cd6747d8b78adcc83b4a2",
-      "sourceName": "contracts/interfaces/liquidityMining/IOrchardFairLaunch.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\liquidityMining\\IKyberFairLaunch.sol": {
+      "lastModificationDate": 1652106142613,
+      "contentHash": "2ff224ea9976a62539a73e62054dcc58",
+      "sourceName": "contracts/interfaces/liquidityMining/IKyberFairLaunch.sol",
       "solcConfig": {
         "version": "0.7.6",
         "settings": {
@@ -3100,7 +3152,7 @@
         "0.7.6"
       ],
       "artifacts": [
-        "IOrchardFairLaunch"
+        "IKyberFairLaunch"
       ]
     }
   }

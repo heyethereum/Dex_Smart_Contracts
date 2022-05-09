@@ -3,7 +3,7 @@ require("@nomiclabs/hardhat-etherscan");
 require("dotenv").config();
 
 const ALCHEMY_API = process.env.ALCHEMY_HTTP;
-const SECRET = process.env.SECRET;
+const SECRET = process.env.SECRET1;
 const ETHERSCAN_API = process.env.ETHERSCAN_API;
 const POLYGONSCANSCAN_API = process.env.POLYGONSCAN_API;
 const ALCHEMY_HTTP_MUMBAI = process.env.ALCHEMY_HTTP_MUMBAI;
@@ -16,7 +16,7 @@ module.exports = {
         settings: {
           optimizer: {
             enabled: true,
-            runs: 999999,
+            runs: 200,
           },
         },
       },
@@ -47,6 +47,15 @@ module.exports = {
           },
         },
       },
+      {
+        version: "0.5.0",
+        settings: {
+          optimizer: {
+            enabled: true,
+            runs: 200,
+          },
+        },
+      },
     ],
   },
   networks: {
@@ -56,6 +65,12 @@ module.exports = {
     },
     mumbai: {
       url: `${ALCHEMY_HTTP_MUMBAI}`,
+      accounts: [`0x${SECRET}`],
+    },
+    fuji: {
+      url: "https://api.avax-test.network/ext/bc/C/rpc",
+      gasPrice: 225000000000,
+      chainId: 43113,
       accounts: [`0x${SECRET}`],
     },
   },
