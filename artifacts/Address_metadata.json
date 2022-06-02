@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"KyberFairLaunch_flat.sol": "Address"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"KyberFairLaunch_flat.sol": {
+			"keccak256": "0x77d73285269a70aa0f6f9adbb09dd8e0eb257d7c5716fb9ed8a04ebc8f17e56c",
+			"license": "MIT AND agpl-3.0",
+			"urls": [
+				"bzz-raw://600ce8552c681824baf0327a2056d9d5b258e5a484e784d105d826a5e98f1568",
+				"dweb:/ipfs/QmXSZPNF5Nw942YhL7F6Hh6ngDfsW74JW6RNVyAqQk735h"
+			]
+		}
+	},
+	"version": 1
+}

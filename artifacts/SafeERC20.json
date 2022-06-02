@@ -1,0 +1,66 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220035580505b61091aeecac97b23c7705cfadeed2697c807ec2eca7f76f271af6264736f6c63430007060033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SUB SSTORE DUP1 POP JUMPDEST PUSH2 0x91A 0xEE 0xCA 0xC9 PUSH28 0x23C7705CFADEED2697C807EC2ECA7F76F271AF6264736F6C63430007 MOD STOP CALLER ",
+			"sourceMap": "35578:3161:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220035580505b61091aeecac97b23c7705cfadeed2697c807ec2eca7f76f271af6264736f6c63430007060033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SUB SSTORE DUP1 POP JUMPDEST PUSH2 0x91A 0xEE 0xCA 0xC9 PUSH28 0x23C7705CFADEED2697C807EC2ECA7F76F271AF6264736F6C63430007 MOD STOP CALLER ",
+			"sourceMap": "35578:3161:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"_callOptionalReturn(contract IERC20,bytes memory)": "infinite",
+				"safeApprove(contract IERC20,address,uint256)": "infinite",
+				"safeDecreaseAllowance(contract IERC20,address,uint256)": "infinite",
+				"safeIncreaseAllowance(contract IERC20,address,uint256)": "infinite",
+				"safeTransfer(contract IERC20,address,uint256)": "infinite",
+				"safeTransferFrom(contract IERC20,address,address,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

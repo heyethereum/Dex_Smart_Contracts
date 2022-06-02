@@ -1,4 +1,4 @@
-// fuji address: 0xd4B7833bdf255e025ffca1321Aa93E2bef6104A6
+// fuji address: 0x5777d499F09f1C3F7aACFBd8e25e3e6665F88714
 
 async function main() {
   const [deployer] = await ethers.getSigners();

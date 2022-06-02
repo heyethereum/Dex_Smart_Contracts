@@ -1,0 +1,72 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220deb2105f031c071e67e000ece4659878903705339244f7f7f46dbc0cc623129264736f6c63430007060033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xDE 0xB2 LT 0x5F SUB SHR SMOD 0x1E PUSH8 0xE000ECE465987890 CALLDATACOPY SDIV CALLER SWAP3 DIFFICULTY 0xF7 0xF7 DELEGATECALL PUSH14 0xBC0CC623129264736F6C63430007 MOD STOP CALLER ",
+			"sourceMap": "7036:5955:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea2646970667358221220deb2105f031c071e67e000ece4659878903705339244f7f7f46dbc0cc623129264736f6c63430007060033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xDE 0xB2 LT 0x5F SUB SHR SMOD 0x1E PUSH8 0xE000ECE465987890 CALLDATACOPY SDIV CALLER SWAP3 DIFFICULTY 0xF7 0xF7 DELEGATECALL PUSH14 0xBC0CC623129264736F6C63430007 MOD STOP CALLER ",
+			"sourceMap": "7036:5955:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"toInt128(int256)": "infinite",
+				"toInt16(int256)": "infinite",
+				"toInt256(uint256)": "infinite",
+				"toInt32(int256)": "infinite",
+				"toInt64(int256)": "infinite",
+				"toInt8(int256)": "infinite",
+				"toUint128(uint256)": "infinite",
+				"toUint16(uint256)": "infinite",
+				"toUint256(int256)": "infinite",
+				"toUint32(uint256)": "infinite",
+				"toUint64(uint256)": "infinite",
+				"toUint8(uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

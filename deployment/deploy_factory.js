@@ -23,3 +23,5 @@ main().then(() =>
     process.exit(1);
   })
 );
+
+// fair launch address fuji: 0x1aaE61d966e34731295179D29B67462B02eacCf1

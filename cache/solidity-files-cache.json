@@ -363,41 +363,6 @@
         "DMMFactory"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\EnumerableSet.sol": {
-      "lastModificationDate": 1651839464334,
-      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
-      "sourceName": "@openzeppelin/contracts/utils/EnumerableSet.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "EnumerableSet"
-      ]
-    },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\IDMMFactory.sol": {
       "lastModificationDate": 1650284718111,
       "contentHash": "f6b158d69ff349c19e360d476ad44532",
@@ -481,185 +446,6 @@
       ],
       "artifacts": [
         "DMMPool"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
-      "lastModificationDate": 1651839466377,
-      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "IERC20"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\math\\SafeMath.sol": {
-      "lastModificationDate": 1651839467334,
-      "contentHash": "e03e12206057e809eb76c5f681170c32",
-      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "SafeMath"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\math\\Math.sol": {
-      "lastModificationDate": 1651839466865,
-      "contentHash": "e5c844515b04deabacef7eb872abc384",
-      "sourceName": "@openzeppelin/contracts/math/Math.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "Math"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\ReentrancyGuard.sol": {
-      "lastModificationDate": 1651839467187,
-      "contentHash": "1c60f58cee45c61469e1aea31e4dd879",
-      "sourceName": "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "ReentrancyGuard"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\SafeERC20.sol": {
-      "lastModificationDate": 1651839467272,
-      "contentHash": "33e22842646d746e5c4124c2fdc051aa",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC20.sol",
-        "../../math/SafeMath.sol",
-        "../../utils/Address.sol"
-      ],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "SafeERC20"
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\libraries\\MathExt.sol": {
@@ -921,80 +707,6 @@
         "VolumeTrendRecorder"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
-      "lastModificationDate": 1651839463891,
-      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
-      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.2 <0.8.0"
-      ],
-      "artifacts": [
-        "Address"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
-      "lastModificationDate": 1651839464856,
-      "contentHash": "8065b340476f61365c076897199425f1",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../utils/Context.sol",
-        "./IERC20.sol",
-        "../../math/SafeMath.sol"
-      ],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "ERC20"
-      ]
-    },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\IERC20Permit.sol": {
       "lastModificationDate": 1650284718118,
       "contentHash": "dbd3ab90d473c4b77f78c6a017aaa45b",
@@ -1030,41 +742,6 @@
       ],
       "artifacts": [
         "IERC20Permit"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
-      "lastModificationDate": 1651839464098,
-      "contentHash": "2adbd82f6d055a4751566d4671512b03",
-      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "Context"
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\mock\\MockDMMPair.sol": {
@@ -1186,41 +863,6 @@
       ],
       "artifacts": [
         "ZapIn"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@uniswap\\lib\\contracts\\libraries\\TransferHelper.sol": {
-      "lastModificationDate": 1650389453686,
-      "contentHash": "7fad4038612c5f040ebd746a3e58e0db",
-      "sourceName": "@uniswap/lib/contracts/libraries/TransferHelper.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.0"
-      ],
-      "artifacts": [
-        "TransferHelper"
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\IDMMRouter02.sol": {
@@ -1542,150 +1184,6 @@
         "LiquidityMigrator"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
-      "lastModificationDate": 1651839466882,
-      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "Ownable"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router02.sol": {
-      "lastModificationDate": 1650389458040,
-      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
-      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IUniswapV2Router01.sol"
-      ],
-      "versionPragmas": [
-        ">=0.6.2"
-      ],
-      "artifacts": [
-        "IUniswapV2Router02"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@uniswap\\v2-core\\contracts\\interfaces\\IUniswapV2Pair.sol": {
-      "lastModificationDate": 1650389456372,
-      "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
-      "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "IUniswapV2Pair"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router01.sol": {
-      "lastModificationDate": 1650389458026,
-      "contentHash": "95d8729b2c698dc663322167b3c085fe",
-      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.2"
-      ],
-      "artifacts": [
-        "IUniswapV2Router01"
-      ]
-    },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\mock\\fee\\FeeTo.sol": {
       "lastModificationDate": 1650284718137,
       "contentHash": "2799f9a3cc1ea722e258282e633e5819",
@@ -1994,6 +1492,116 @@
         "MockERC20Permit"
       ]
     },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\proxy\\UpgradeabilityProxy.sol": {
+      "lastModificationDate": 1651837618053,
+      "contentHash": "4411609d0c5c2f8fa6c311f2449d5ea2",
+      "sourceName": "contracts/proxy/UpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Proxy.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "UpgradeabilityProxy"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\proxy\\Proxy.sol": {
+      "lastModificationDate": 1651837636413,
+      "contentHash": "eb060dbde31de4fb200bd8e7e4c0f991",
+      "sourceName": "contracts/proxy/Proxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "Proxy"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\proxy\\AdminUpgradeabilityProxy.sol": {
+      "lastModificationDate": 1651837597835,
+      "contentHash": "1aa5c947d3fe58f78ccc551be587610e",
+      "sourceName": "contracts/proxy/AdminUpgradeabilityProxy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UpgradeabilityProxy.sol"
+      ],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AdminUpgradeabilityProxy"
+      ]
+    },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\mock\\MockDMMLibrary.sol": {
       "lastModificationDate": 1650284718126,
       "contentHash": "df49709f5a1f0c9f0649838016661910",
@@ -2173,6 +1781,41 @@
       ],
       "artifacts": [
         "WETH"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1651839466377,
+      "contentHash": "e0a41531d159d3a32f84b7a3ecf9fabb",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts-upgradeable\\token\\ERC20\\IERC20Upgradeable.sol": {
@@ -2471,12 +2114,12 @@
         "OwnableUpgradeable"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\OrchardNetworkTokenV2.sol": {
-      "lastModificationDate": 1651836019726,
-      "contentHash": "399977ac45d082c724362fa760dc905c",
-      "sourceName": "contracts/OrchardNetworkTokenV2.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\SafeERC20.sol": {
+      "lastModificationDate": 1651839467272,
+      "contentHash": "33e22842646d746e5c4124c2fdc051aa",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
       "solcConfig": {
-        "version": "0.6.6",
+        "version": "0.7.6",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -2499,68 +2142,27 @@
         }
       },
       "imports": [
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
-        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20BurnableUpgradeable.sol",
-        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol"
+        "./IERC20.sol",
+        "../../math/SafeMath.sol",
+        "../../utils/Address.sol"
       ],
       "versionPragmas": [
-        "0.6.6"
+        ">=0.6.0 <0.8.0"
       ],
       "artifacts": [
-        "IERC20Burnable",
-        "OrchardNetworkTokenV2"
+        "SafeERC20"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\proxy\\UpgradeabilityProxy.sol": {
-      "lastModificationDate": 1651837618053,
-      "contentHash": "4411609d0c5c2f8fa6c311f2449d5ea2",
-      "sourceName": "contracts/proxy/UpgradeabilityProxy.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\math\\SafeMath.sol": {
+      "lastModificationDate": 1651839467334,
+      "contentHash": "e03e12206057e809eb76c5f681170c32",
+      "sourceName": "@openzeppelin/contracts/math/SafeMath.sol",
       "solcConfig": {
-        "version": "0.6.12",
+        "version": "0.7.6",
         "settings": {
           "optimizer": {
             "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./Proxy.sol",
-        "@openzeppelin/contracts/utils/Address.sol"
-      ],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "UpgradeabilityProxy"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\proxy\\Proxy.sol": {
-      "lastModificationDate": 1651837636413,
-      "contentHash": "eb060dbde31de4fb200bd8e7e4c0f991",
-      "sourceName": "contracts/proxy/Proxy.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
+            "runs": 999999
           },
           "outputSelection": {
             "*": {
@@ -2580,53 +2182,16 @@
       },
       "imports": [],
       "versionPragmas": [
-        "^0.6.0"
+        ">=0.6.0 <0.8.0"
       ],
       "artifacts": [
-        "Proxy"
+        "SafeMath"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\proxy\\AdminUpgradeabilityProxy.sol": {
-      "lastModificationDate": 1651837597835,
-      "contentHash": "1aa5c947d3fe58f78ccc551be587610e",
-      "sourceName": "contracts/proxy/AdminUpgradeabilityProxy.sol",
-      "solcConfig": {
-        "version": "0.6.12",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./UpgradeabilityProxy.sol"
-      ],
-      "versionPragmas": [
-        "^0.6.0"
-      ],
-      "artifacts": [
-        "AdminUpgradeabilityProxy"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\proxy\\Address.sol": {
-      "lastModificationDate": 1651837656353,
-      "contentHash": "f5d43815ecfb8015728755d7ee23d35e",
-      "sourceName": "contracts/proxy/Address.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1651839463891,
+      "contentHash": "7aa46886ff5abe7515496208a5e2ce5a",
+      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
         "version": "0.7.6",
         "settings": {
@@ -2658,10 +2223,10 @@
         "Address"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\manual\\IERC20Ext.sol": {
-      "lastModificationDate": 1651854305967,
-      "contentHash": "300d7e779ecfaed0dfb3812ede6618fd",
-      "sourceName": "contracts/manual/IERC20Ext.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1651839466882,
+      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
         "version": "0.7.6",
         "settings": {
@@ -2686,19 +2251,19 @@
         }
       },
       "imports": [
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+        "../utils/Context.sol"
       ],
       "versionPragmas": [
-        "0.7.6"
+        ">=0.6.0 <0.8.0"
       ],
       "artifacts": [
-        "IERC20Ext"
+        "Ownable"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\SafeCast.sol": {
-      "lastModificationDate": 1651839467242,
-      "contentHash": "c227dcf457382aabf2d78218f6457799",
-      "sourceName": "@openzeppelin/contracts/utils/SafeCast.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1651839464098,
+      "contentHash": "2adbd82f6d055a4751566d4671512b03",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
         "version": "0.7.6",
         "settings": {
@@ -2727,48 +2292,13 @@
         ">=0.6.0 <0.8.0"
       ],
       "artifacts": [
-        "SafeCast"
+        "Context"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\manual\\PermissionAdmin.sol": {
-      "lastModificationDate": 1651854191709,
-      "contentHash": "c8f8681a07b0d5ec39bd1441c353e301",
-      "sourceName": "contracts/manual/PermissionAdmin.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "0.7.6"
-      ],
-      "artifacts": [
-        "PermissionAdmin"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\KyberRewardLockerV2.sol": {
-      "lastModificationDate": 1651937924109,
-      "contentHash": "7ac22dd91310f0199241087c14eb4045",
-      "sourceName": "contracts/liquidityMining/KyberRewardLockerV2.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1651839464856,
+      "contentHash": "8065b340476f61365c076897199425f1",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
         "version": "0.7.6",
         "settings": {
@@ -2793,60 +2323,19 @@
         }
       },
       "imports": [
-        "../manual/IERC20Ext.sol",
-        "@openzeppelin/contracts/math/SafeMath.sol",
-        "@openzeppelin/contracts/utils/SafeCast.sol",
-        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
-        "@openzeppelin/contracts/utils/EnumerableSet.sol",
-        "../manual/PermissionAdmin.sol",
-        "../interfaces/liquidityMining/IKyberRewardLockerV2.sol"
+        "../../utils/Context.sol",
+        "./IERC20.sol",
+        "../../math/SafeMath.sol"
       ],
       "versionPragmas": [
-        "0.7.6"
+        ">=0.6.0 <0.8.0"
       ],
       "artifacts": [
-        "KyberRewardLockerV2"
-      ]
-    },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\liquidityMining\\IKyberRewardLockerV2.sol": {
-      "lastModificationDate": 1651937877244,
-      "contentHash": "0e4b2f9b4124c82ed533f4d2ae710898",
-      "sourceName": "contracts/interfaces/liquidityMining/IKyberRewardLockerV2.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 999999
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../manual/IERC20Ext.sol"
-      ],
-      "versionPragmas": [
-        "0.7.6"
-      ],
-      "artifacts": [
-        "IKyberRewardLockerV2"
+        "ERC20"
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\GeneratedToken.sol": {
-      "lastModificationDate": 1651938313220,
+      "lastModificationDate": 1652190957495,
       "contentHash": "e8500d8764751b131af1fd049a2aa1a2",
       "sourceName": "contracts/liquidityMining/GeneratedToken.sol",
       "solcConfig": {
@@ -2883,8 +2372,8 @@
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\KyberFairLaunchV2.sol": {
-      "lastModificationDate": 1651938264158,
-      "contentHash": "ef9d39782489820134b87bd0ad239e31",
+      "lastModificationDate": 1652190962186,
+      "contentHash": "bbf3816a32461ab842a60238a5097bc2",
       "sourceName": "contracts/liquidityMining/KyberFairLaunchV2.sol",
       "solcConfig": {
         "version": "0.7.6",
@@ -2926,6 +2415,113 @@
         "KyberFairLaunchV2"
       ]
     },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1651839467187,
+      "contentHash": "1c60f58cee45c61469e1aea31e4dd879",
+      "sourceName": "@openzeppelin/contracts/utils/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\manual\\IERC20Ext.sol": {
+      "lastModificationDate": 1651854305967,
+      "contentHash": "300d7e779ecfaed0dfb3812ede6618fd",
+      "sourceName": "contracts/manual/IERC20Ext.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IERC20Ext"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\manual\\PermissionAdmin.sol": {
+      "lastModificationDate": 1651854191709,
+      "contentHash": "c8f8681a07b0d5ec39bd1441c353e301",
+      "sourceName": "contracts/manual/PermissionAdmin.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "PermissionAdmin"
+      ]
+    },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\liquidityMining\\IKyberFairLaunchV2.sol": {
       "lastModificationDate": 1651938395750,
       "contentHash": "b00abd38a571ef1504f19e36aa12accc",
@@ -2961,10 +2557,90 @@
         "IKyberFairLaunchV2"
       ]
     },
-    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\Multicall.sol": {
-      "lastModificationDate": 1652000440879,
-      "contentHash": "1abacf738fa49fed08548fc3a5a606cc",
-      "sourceName": "contracts/Multicall.sol",
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\interfaces\\liquidityMining\\IKyberRewardLockerV2.sol": {
+      "lastModificationDate": 1651937877244,
+      "contentHash": "0e4b2f9b4124c82ed533f4d2ae710898",
+      "sourceName": "contracts/interfaces/liquidityMining/IKyberRewardLockerV2.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../manual/IERC20Ext.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "IKyberRewardLockerV2"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\KyberRewardLockerV2.sol": {
+      "lastModificationDate": 1652153335735,
+      "contentHash": "3644f19ba262c7a9e003c0e896f7bf63",
+      "sourceName": "contracts/liquidityMining/KyberRewardLockerV2.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../manual/IERC20Ext.sol",
+        "@openzeppelin/contracts/math/SafeMath.sol",
+        "@openzeppelin/contracts/utils/SafeCast.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "@openzeppelin/contracts/utils/EnumerableSet.sol",
+        "../manual/PermissionAdmin.sol",
+        "../interfaces/liquidityMining/IKyberRewardLockerV2.sol"
+      ],
+      "versionPragmas": [
+        "0.7.6"
+      ],
+      "artifacts": [
+        "KyberRewardLockerV2"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\SafeCast.sol": {
+      "lastModificationDate": 1651839467242,
+      "contentHash": "c227dcf457382aabf2d78218f6457799",
+      "sourceName": "@openzeppelin/contracts/utils/SafeCast.sol",
       "solcConfig": {
         "version": "0.7.6",
         "settings": {
@@ -2990,15 +2666,50 @@
       },
       "imports": [],
       "versionPragmas": [
-        ">=0.5.0"
+        ">=0.6.0 <0.8.0"
       ],
       "artifacts": [
-        "Multicall"
+        "SafeCast"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\utils\\EnumerableSet.sol": {
+      "lastModificationDate": 1651839464334,
+      "contentHash": "db7b1afdb2c204e1e52100b79f0c847e",
+      "sourceName": "@openzeppelin/contracts/utils/EnumerableSet.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "EnumerableSet"
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\KyberRewardLocker.sol": {
-      "lastModificationDate": 1652104835040,
-      "contentHash": "77d2b30c288b27e53997f464bf44af9a",
+      "lastModificationDate": 1652190956051,
+      "contentHash": "8d071786fe73ffb0c4672ba28a22fd3e",
       "sourceName": "contracts/liquidityMining/KyberRewardLocker.sol",
       "solcConfig": {
         "version": "0.7.6",
@@ -3077,7 +2788,7 @@
       ]
     },
     "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\liquidityMining\\KyberFairLaunch.sol": {
-      "lastModificationDate": 1652106120233,
+      "lastModificationDate": 1652191139129,
       "contentHash": "b188400b6830dbfadc6ed0e4a499dc94",
       "sourceName": "contracts/liquidityMining/KyberFairLaunch.sol",
       "solcConfig": {
@@ -3153,6 +2864,295 @@
       ],
       "artifacts": [
         "IKyberFairLaunch"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router02.sol": {
+      "lastModificationDate": 1650389458040,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router01.sol": {
+      "lastModificationDate": 1650389458026,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@uniswap\\v2-core\\contracts\\interfaces\\IUniswapV2Pair.sol": {
+      "lastModificationDate": 1650389456372,
+      "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
+      "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@openzeppelin\\contracts\\math\\Math.sol": {
+      "lastModificationDate": 1651839466865,
+      "contentHash": "e5c844515b04deabacef7eb872abc384",
+      "sourceName": "@openzeppelin/contracts/math/Math.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\node_modules\\@uniswap\\lib\\contracts\\libraries\\TransferHelper.sol": {
+      "lastModificationDate": 1650389453686,
+      "contentHash": "7fad4038612c5f040ebd746a3e58e0db",
+      "sourceName": "@uniswap/lib/contracts/libraries/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.0"
+      ],
+      "artifacts": [
+        "TransferHelper"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\Multicall.sol": {
+      "lastModificationDate": 1652000440879,
+      "contentHash": "1abacf738fa49fed08548fc3a5a606cc",
+      "sourceName": "contracts/Multicall.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "Multicall"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\proxy\\Address.sol": {
+      "lastModificationDate": 1651837656353,
+      "contentHash": "f5d43815ecfb8015728755d7ee23d35e",
+      "sourceName": "contracts/proxy/Address.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2 <0.8.0"
+      ],
+      "artifacts": [
+        "Address"
+      ]
+    },
+    "C:\\Users\\ACER\\Desktop\\Project\\SimpleWeb3\\orchard-swap\\contracts\\OrchardNetworkTokenV2.sol": {
+      "lastModificationDate": 1651836019726,
+      "contentHash": "399977ac45d082c724362fa760dc905c",
+      "sourceName": "contracts/OrchardNetworkTokenV2.sol",
+      "solcConfig": {
+        "version": "0.6.6",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 999999
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC20/SafeERC20.sol",
+        "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/ERC20BurnableUpgradeable.sol",
+        "@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol"
+      ],
+      "versionPragmas": [
+        "0.6.6"
+      ],
+      "artifacts": [
+        "IERC20Burnable",
+        "OrchardNetworkTokenV2"
       ]
     }
   }

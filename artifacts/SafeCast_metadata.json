@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Wrappers over Solidity's uintXX/intXX casting operators with added overflow checks. Downcasting from uint256/int256 in Solidity does not revert on overflow. This can easily result in undesired exploitation or bugs, since developers usually assume that overflows raise errors. `SafeCast` restores this intuition by reverting the transaction when such an operation overflows. Using this library instead of the unchecked operations eliminates an entire class of bugs, so it's recommended to use it always. Can be combined with {SafeMath} and {SignedSafeMath} to extend it to smaller types, by performing all math on `uint256` and `int256` and then downcasting.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"KyberFairLaunch_flat.sol": "SafeCast"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"KyberFairLaunch_flat.sol": {
+			"keccak256": "0x77d73285269a70aa0f6f9adbb09dd8e0eb257d7c5716fb9ed8a04ebc8f17e56c",
+			"license": "MIT AND agpl-3.0",
+			"urls": [
+				"bzz-raw://600ce8552c681824baf0327a2056d9d5b258e5a484e784d105d826a5e98f1568",
+				"dweb:/ipfs/QmXSZPNF5Nw942YhL7F6Hh6ngDfsW74JW6RNVyAqQk735h"
+			]
+		}
+	},
+	"version": 1
+}

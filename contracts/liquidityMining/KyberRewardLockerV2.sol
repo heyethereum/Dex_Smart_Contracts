@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: agpl-3.0
 pragma solidity 0.7.6;
-pragma abicoder v2;
+pragma experimental ABIEncoderV2;
+//pragma abicoder v2;
 
 import {IERC20Ext} from "../manual/IERC20Ext.sol";
 import {SafeMath} from "@openzeppelin/contracts/math/SafeMath.sol";

@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: agpl-3.0
 pragma solidity 0.7.6;
-pragma abicoder v2;
+pragma experimental ABIEncoderV2;
+//pragma abicoder v2;
+
+// fuji testnet address: 0xA4712a6f199D3Ac21C9531f6151897F53da7A8e1
 
 import {IERC20Ext} from "../manual/IERC20Ext.sol";
 import {SafeMath} from "@openzeppelin/contracts/math/SafeMath.sol";

@@ -1,4 +1,6 @@
-// mumbai factory address: 0x8e90ac775088ea98EB8BbEa5d4Fc16c0ba11F2B4
+// fuji address: 0xAf69aDEB3cae6A072AF6aC7F6190460269eD1dbE
+// fuji address(2nd launch): 0xA4712a6f199D3Ac21C9531f6151897F53da7A8e1
+// fuji address(for OG Token):
 
 async function main() {
   const [deployer] = await ethers.getSigners();
